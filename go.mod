@@ -1,4 +1,4 @@
-module github.com/rinsuki/activity-generator
+module github.com/rinsuki/discord-activity-generator
 
 go 1.16
 
