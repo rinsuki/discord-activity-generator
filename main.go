@@ -36,7 +36,7 @@ func main() {
 
 // TODO: check this function working intended
 func createCommandIfNeeded(discord *discordgo.Session) {
-	version := "1.0.0"
+	version := "1.1.0"
 	versionString := " (v." + version + ")"
 
 	commands, err := discord.ApplicationCommands(discord.State.User.ID, "")
