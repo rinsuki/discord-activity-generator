@@ -63,8 +63,12 @@ func createCommandIfNeeded(discord *discordgo.Session) {
 				Choices: []*discordgo.ApplicationCommandOptionChoice{
 					// from https://github.com/DjDeveloperr/ActivitiesBot/blob/52fab01de173de1d164f370486b9d094e5c5a22f/mod.ts
 					{
-						Name:  "YouTube Together",
+						Name:  "YouTube Together (Old)",
 						Value: "755600276941176913",
+					},
+					{
+						Name: "Watch Together (new version of YouTube Together)",
+						Value: "880218394199220334",
 					},
 					{
 						Name:  "Poker Night",
