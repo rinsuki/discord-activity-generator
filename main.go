@@ -82,6 +82,14 @@ func createCommandIfNeeded(discord *discordgo.Session) {
 						Name:  "Fishington.io",
 						Value: "814288819477020702",
 					},
+					{
+						Name: "88055924547140816 (???)",
+						Value: "88055924547140816",
+					},
+					{
+						Name: "Sketch Heads",
+						Value: "902271654783242291",
+					},
 				},
 			},
 		},
